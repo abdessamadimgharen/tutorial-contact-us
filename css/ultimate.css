@@ -1,0 +1,145 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+:root {
+    --main-opacity: .5;
+    --main-size: 14px;
+}
+.ultimate {
+    background-color: #333333;
+    color: white;
+}
+.ultimate .container {
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.ultimate .container .col h3 {
+    margin: 0 0 30px;
+}
+.ultimate .container .col:first-of-type {
+    width: 35%;
+}
+.ultimate .container .col:first-of-type p {
+    opacity: var(--main-opacity);
+    font-size: var(--main-size);
+}
+.ultimate .container .col:first-of-type  .ways {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.ultimate .container .col:first-of-type  .ways .box {
+    width: calc(50% - 10px);
+}
+.ultimate .container .col:first-of-type  .ways .box p {
+    opacity: var(--main-opacity);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.ultimate .container .col:first-of-type  .ways .box span {
+    font-size: 12px;
+}
+.ultimate .container .col:nth-of-type(2) .info div,
+.ultimate .container .col:nth-of-type(3) .info div {
+    opacity: var(--main-opacity);
+    margin-bottom: 12px;
+    font-size: var(--main-size);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.ultimate .container .col:last-of-type  {
+    width: 35%;
+}
+.ultimate .container .col:last-of-type  p {
+    opacity: var(--main-opacity);
+    font-size: var(--main-size);
+}
+.ultimate .container .col:last-of-type form input {
+    background-color: #4c4c4c;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 2px;
+}
+.ultimate .container .col:last-of-type form input:hover {
+    outline: none;
+    background-color: #4c4c4c;
+    color: rgba(255, 255, 255, 0.505);
+}
+.ultimate .container .col:last-of-type form input:focus {
+    outline: none;
+    color: rgba(255, 255, 255, 0.505);
+}
+.ultimate .container .col:last-of-type form input::placeholder {
+    color: white;
+    opacity: .6;
+    font-size: 13px;
+}
+.ultimate .container .col:last-of-type form button {
+    padding: 6px 15px;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+}
+.ultimate .container .col:last-of-type form button a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.ultimate .container .col:last-of-type .icons i {
+    margin-right: 7px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.ultimate .container .col .icons i:first-child {
+    color: rgb(17, 76, 202);
+}
+.ultimate .container .col .icons i:nth-child(2) {
+    color: rgb(19, 168, 223);
+}
+.ultimate .container .col .icons i:nth-child(3) {
+    color: rgb(234, 56, 56);
+}
+.ultimate .container .col .icons i:nth-child(4) {
+    color: #ec03c5;
+}
+.ultimate .container .col .icons i:last-child {
+    color: yellow;
+}
+.ultimate .footer {
+    padding: 15px 100px;
+    background-color: rgba(0, 0, 0, 0.201);
+    display: flex;
+    justify-content: space-between;
+}
+.ultimate .footer div:first-child {
+    font-size: var(--main-size);
+    line-height: 2;
+}
+.ultimate .footer div span {
+    opacity: var(--main-opacity);
+}
+.ultimate .footer div i {
+    margin-right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.ultimate .footer div i:first-child {
+    color: rgb(19, 168, 223);
+}
+.ultimate .footer div i:nth-child(3) {
+    color: rgb(19, 97, 176);
+}
+.ultimate .footer div i:last-child {
+    color: rgb(147, 147, 17);
+}
